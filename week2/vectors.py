@@ -19,8 +19,8 @@ class Vector:
             return True
         return False
     @property
-    def z(self):
-        return self.__z
+    def x(self):
+        return self.__x
     @z.setter
 
     def set_y(self,y):
@@ -39,6 +39,7 @@ class Vector:
             return True
         return False
     pass
+
 vec1=Vector(4,2)
 print(vec1.x,',',vec1.y)
 
